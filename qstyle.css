@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgba(19, 22, 25, 255);
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #131619;
+    font-size: 14px;
+    -webkit-font-smoothing: subpixel-antialiased;
+  }
+  a {
+    color: #ee1144;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  ul {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+  }
+#header {
+    background-color: rgba(19, 22, 25, 255);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+  }
+  #contain-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  #ask-log {
+    width: 70px;
+  }
+  #ask-log img {
+    width: 100%;
+  }
+  #menu-settings ul {
+    display: flex;
+  }
+  #menu-settings ul li {
+    display: inline-block;
+    margin-left: 30px;
+  }
+  #menu-settings ul li a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  #menu-settings ul li img {
+    display: flex;
+    width: 30px;
+  }
+  #menu-settings ul li a:hover {
+    background-color: aliceblue;
+  }
+  #main-contetnt {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+  }
+  #time-line {
+    flex-basis: 60%;
+    margin-top: 30px;
+  }
+  #income-question{
+    margin: 20px 0;
+    border-radius: 7px;
+    background-color: white;
+  }
+  #question-tim-head{
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      padding: 15px;
+      
+  }
+  #que-tim-head-left{
+    margin-right: 50%;
+  }
+  #que-tim-head-rigt{
+      margin-top: 10px;
+      color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-items:center ;
+  }
+  #que-tim-head-rigt h5{
+      padding-top: 8px;
+  }
+  #que-tim-head-rigt:hover{
+    color: black;
+  }
+  .income {
+    padding: 20px;
+
+}
+.income-avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:  20px 0;
+}
+.income-avatar-pic{
+    width: 30px;
+    height: 30px;
+
+}
+.income-avatar-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.income-avatar-meta{
+    margin-left: 5px;
+}
+.income-avatar-meta h5{
+    font-weight: bold;
+}
+.income-avatar-meta p{
+    font-size: 10px;
+    color: gray;
+}
+.income-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+  #advertis{
+    flex-basis: 40%;
+    margin-top: 30px;
+    
+  }
+  .terms-condition{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-evenly;
+      padding: 15px;
+  }
+  .terms-condition a{
+    margin-bottom: 15px;
+    color: gray;
+  }
+  .terms-condition a:hover{
+    color: #ee1144;
+  }
+  .terms-condition-left{
+      display: flex;
+      flex-direction: column;
+  }
+  .terms-condition-right{
+      display: flex;
+      flex-direction: column;
+      color: gray;
+      margin-left: 10px;
+  }
+  .social-icons-a{
+    display: flex;
+    flex-direction: row;
+  }
+  .social-icons-a img{
+    width: 25px;
+    border-radius: 50px;
+    margin-left:50px ;
+  }
